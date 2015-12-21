@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Formula F1 Racers</title>
+
+<link rel="stylesheet" type="text/css" href="styles/homeStyle.css">
+<link rel="stylesheet" type="text/css" href="styles/homebodyStyle.css">
+<link rel="stylesheet" type="text/css" href="styles/listStyle.css">
+<link rel="stylesheet" type="text/css" href="styles/registration.css">
+
+</head>
+
+<body ng-app="F1FeederApp">
+
+<div id="header">
+	   <span id="title">Application</span>
+	        <ul id="list">
+				<li> <a href="#home">Home</a> </li>
+				<li> <a href="#list">List</a></li>
+				<li><a href="#application">Application</a></li>
+				<li style="border-right:none"><a href="#Statics">Statics</a></li>
+			</ul>
+	</div>
+
+<div ng-view></div>
+
+<script src="scripts/angular.js"></script>
+<script src= "scripts/angularjs-route.js"></script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/highcharts.js"></script>
+<script src="scripts/exporting.js"></script>
+<script src= "app.js"></script>
+<script src= "app/controllers/mainController.js"></script>
+<script src= "app/controllers/listController.js"></script>
+<script src= "app/controllers/registrationController.js"></script>
+<script src= "app/controllers/static.js"></script>
+<script src="app/services/customerService.js"></script>
+
+
+
+</body>
+</html>

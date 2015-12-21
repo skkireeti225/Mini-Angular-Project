@@ -1,0 +1,61 @@
+<div id="container">
+<h1>Registration</h1>
+	<form>
+		<div>
+			<label>Frist Name</label>
+			<div class="frm"><input type="text" placeholder="First Name" size="35" ng-model="fname" /></div>
+		</div>
+		<div>
+			<label>Last Name</label>
+			<div class="frm"><input type="text" placeholder="First Name" size="35" ng-model="lname" /></div>
+		</div>
+		<div>
+			<label>E-Mail</label>
+			<div class="frm"><input type="text" placeholder="E-Mail"  size="35" ng-model="email"/></div>
+		</div>
+		<div>
+			<label>Password</label>
+			<div class="frm"><input type="password" placeholder="Password" size="35" ng-model="pwd"/></div>
+		</div>
+		<div>
+			<label>Change Password</label>
+			<div class="frm"><input type="Password" placeholder="Change Password" size="35"  ng-model="cpwd"/></div>
+		</div>
+		
+		<div>
+			<label>Date</label>
+			<div class="frm"><input type="date" value="2011-01-14" size="35"  ng-model="date"/></div>
+		</div>
+		<div class="frm">
+		<label>Gender</label>
+			<select name="Gender" ng-model="gen">
+				  <option value="Male">Male</option>
+				  <option value="Female">Female</option>
+				  <option value="Other">Other</option>
+			</select>
+
+		</div>
+		<div  class="frm">
+		<label>Country</label>
+			<select name="country" ng-model="con">
+				  <option value="INDIA">INDIA</option>
+				  <option value="USA">USA</option>
+				  <option value="ENGLAND">ENGLAND</option>
+				  <option value="U.K">INDIA</option>
+				  <option value="AUSTRALIA">AUSTRALIA</option>
+            </select>
+		</div>
+		<div>
+			<label>Address Line 1</label>
+			<div class="frm"><input type="text"  size="35" ng-model="add1"/></div>
+		</div>
+		<div>
+			<label>Address Line 2</label>
+			<div class="frm"><input type="text" size="35" ng-model="add2"/></div>
+		</div>
+		
+		<div>
+			<div class="frm"><input type="SUBMIT" value="SUBMIT" size="35"/></div>
+		</div>
+	</form>
+</div>

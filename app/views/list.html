@@ -1,0 +1,32 @@
+<div>
+	<div style="clear:both"></div>
+	<div id="body1">
+	
+	<div id="Entername">
+	<label>Enter Name</label>
+	<input type="text" ng-model="fil.Name" />
+	</div>
+	
+	<table>
+    <thead>
+      <tr><th ng-click="sortBy='Name';reverse=!reverse">NAME</th>
+	  <th ng-click="sortBy='City';reverse=!reverse">CITY</th>
+	  <th ng-click= "sortBy='Country';reverse=!reverse">COUNTRY</th>
+	  </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="data in datas | filter:fil | orderBy:sortBy:reverse">
+	    <td>
+          {{data.Name}}
+        </td>
+        <td>{{data.City}}</td>
+        <td>{{data.Country}}</td>
+      </tr>
+    </tbody>
+   </table>
+	
+	
+	</div>
+     
+</div>
+
