@@ -16,12 +16,16 @@ F1FeederApp.config(
       }).
      when('/application', {
         templateUrl: 'app/views/registration.html',
-        controller: 'registrationController'
+        controller: ''
       }).
 			when('/Statics', {
 				 templateUrl: 'app/views/piechart.html',
 				 controller: 'static'
 			 }).
+			 when('/details', {
+					templateUrl: 'app/views/details.html',
+					controller: 'detailsCtrl'
+				}).
 
       otherwise({
         redirectTo: '/'

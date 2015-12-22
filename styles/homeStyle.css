@@ -19,14 +19,20 @@ background-color:#993333;
  background-color:#993333;
  width:90%;
  height:41px;
- border-radius:5px;
 }
 
 #list{
    list-style-type: none;
    float:right;
    margin:11px;
-   
+
+}
+#header ul li a:hover {
+    color: red;
+    text-decoration: none;
+}
+#header ul li a:active {
+    color: white;
 }
 ul li{
  float:left;
@@ -45,5 +51,3 @@ color:white;
  font-size:30px;
  font-family:"Times New Roman", Times, serif;
 }
-
-
